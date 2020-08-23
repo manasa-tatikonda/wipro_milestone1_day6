@@ -1,0 +1,16 @@
+        int count=input1,prime=0,num=2;
+		while(count>=1)
+		{
+				  int flag=0;
+                  for(int i=1;i<=num/2;i++)
+				  {
+					  if(num%i==0)
+					  {flag+=1;}
+				  }
+				  if(flag==1)
+				  {prime=num;count-=1;}
+				  num+=1;
+		}
+		return prime;
+
+Link to pratice : https://tests.mettl.com/test-window/34fdaa41

@@ -1,0 +1,18 @@
+	    int num=Math.abs(input1);
+		int flag=0;
+		if(num==2){return 2;}
+		else if(num%2==0){return 1;}
+		else
+		{
+			for(int i=1;i<=num/2;i++)
+			{
+                   if(num%i==0){flag+=1;}
+			}
+			if(flag==1){return 2;} //prime Number
+			else{return 1;}
+
+
+
+
+
+Link to pratice : https://tests.mettl.com/test-window/b1efaa3d

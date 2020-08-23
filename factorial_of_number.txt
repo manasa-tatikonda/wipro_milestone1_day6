@@ -1,0 +1,10 @@
+        int num=Math.abs(input1);
+		int fact=1;
+		for(int i=num;i>=1;i--)
+		{
+			fact*=i;
+		}
+		return fact;
+		
+
+Link to pratice : https://tests.mettl.com/test-window/8c1f2ae
